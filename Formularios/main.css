@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Onest', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Estilos - Primer formulario */
+
+.primer-formulario {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.primer-formulario .card-form {
+    width: 300px;
+    box-shadow: 0 0 10px 1px #0000007a;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background-color: #fff;
+}
+
+.head-form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.head-form h1 {
+    font-size: 30px;
+    color: #F9A825;
+}
+
+.primer-formulario .card-form form {
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+}
+
+.primer-formulario .card-form form input {
+    padding: 0px 5px 20px 5px;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #000;
+}
+
+.primer-formulario .card-form form input:focus {
+    outline: none;
+}
+
+.primer-formulario .card-form form input::placeholder {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.remember-me {
+    display: inline-flex;
+    column-gap: 5px;
+}
+
+.remember-me span{
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+
+.primer-formulario .card-form form button {
+    background-color: #F9A825;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
+
+/* Estilos - Segundo formulario */
+
+.segundo-formulario {
+    display: flex;
+    justify-content: center;
+    background-image: url(bg-programming.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.segundo-formulario .card-form {
+    width: 300px;
+    box-shadow: 0 0 10px 1px #0000007a;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background-color: #ffffff1f;
+    backdrop-filter: blur(10px);
+}
+
+.head-form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.head-form h1 {
+    font-size: 30px;
+    color: #F9A825;
+}
+
+.segundo-formulario .card-form form {
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+}
+
+.segundo-formulario .card-form form input {
+    padding: 0px 5px 20px 5px;
+    border: 0;
+    color: #fff;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #fff;
+}
+
+.segundo-formulario .card-form form input:focus {
+    outline: none;
+}
+
+.segundo-formulario .card-form form input::placeholder {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.remember-me {
+    display: inline-flex;
+    column-gap: 5px;
+}
+
+.remember-me span{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.segundo-formulario .card-form form button {
+    background-color: #F9A825;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
